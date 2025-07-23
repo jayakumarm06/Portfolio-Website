@@ -76,4 +76,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+# SSL and let'sEncrypt certificate 
 
+### `sudo apt update `
+### `sudo apt install certbot python3-certbot-nginx -y `
+
+# certbot: The tool to obtain Let's Encrypt SSL certificates.
+
+# python3-certbot-nginx: The Certbot plugin to automatically configure SSL for Nginx.
+
+### `sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com`
+
+# Replace yourdomain.com with your actual domain name.
